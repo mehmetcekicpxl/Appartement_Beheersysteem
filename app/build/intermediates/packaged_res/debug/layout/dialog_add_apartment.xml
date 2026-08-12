@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yeni Daire Ekle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etDoorNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kapı No"
+        android:inputType="number" />
+
+
+
+    <EditText
+        android:id="@+id/etTenantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kiracı Adı (İsteğe bağlı)"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

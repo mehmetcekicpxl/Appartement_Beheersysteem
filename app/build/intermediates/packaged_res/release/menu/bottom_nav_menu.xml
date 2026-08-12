@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Ana Sayfa"/>
+    <item
+        android:id="@+id/nav_expenses"
+        android:icon="@drawable/ic_expenses"
+        android:title="Giderler"/>
+    <item
+        android:id="@+id/nav_apartments"
+        android:icon="@drawable/ic_apartments"
+        android:title="Daireler"/>
+    <item
+        android:id="@+id/nav_reports"
+        android:icon="@drawable/ic_reports"
+        android:title="Raporlar"/>
+</menu>

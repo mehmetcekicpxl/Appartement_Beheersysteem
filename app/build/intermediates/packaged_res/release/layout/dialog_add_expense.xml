@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etExpenseDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Açıklama (Örn: Asansör)"
+        android:inputType="textCapSentences"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/etExpenseAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tutar (TL)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gider Türü"
+        android:layout_marginBottom="4dp"
+        android:textSize="14sp"
+        android:textColor="#757575"/>
+
+    <Spinner
+        android:id="@+id/spinnerExpenseType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"/>
+
+</LinearLayout>

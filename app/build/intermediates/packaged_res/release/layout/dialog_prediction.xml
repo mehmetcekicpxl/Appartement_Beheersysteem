@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gelecek Yıl Tahmini"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beklenen Artış Oranı (%)"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etIncreaseRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Örn: 20"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hesapla"
+        android:layout_marginTop="16dp"/>
+    
+    <TextView
+        android:id="@+id/tvPredictionResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_ic_home.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_dialog_add_apartment.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/dialog_add_apartment.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_ic_check_circle.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_bg_pill_faded.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/bg_pill_faded.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_item_file.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/item_file.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_fragment_expenses.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/fragment_expenses.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_item_expense.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/item_expense.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_bg_header_rounded.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/bg_header_rounded.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_fragment_apartments.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/fragment_apartments.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_dialog_add_expense.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/dialog_add_expense.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_fragment_reports.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/fragment_reports.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_ic_close_circle.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/ic_close_circle.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_ic_calendar.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_bg_edittext_rounded.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/bg_edittext_rounded.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_ic_receipt.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/ic_receipt.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_activity_splash.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_ic_expenses.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/ic_expenses.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_item_apartment.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/item_apartment.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_item_note.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/item_note.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_activity_detail.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_ic_apartments.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/ic_apartments.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_dialog_add_transaction.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/dialog_add_transaction.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_item_payment_apartment.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/item_payment_apartment.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_dialog_prediction.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/dialog_prediction.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_fragment_home.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_ic_reports.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/ic_reports.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_bg_circle_faded.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-32:/drawable/bg_circle_faded.xml"
+    }
+]

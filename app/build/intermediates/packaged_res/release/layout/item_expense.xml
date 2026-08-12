@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+        
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivExpenseIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_receipt"
+            app:tint="@color/colorPrimary"
+            android:background="@drawable/bg_circle_faded"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/tvExpenseTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Gider Başlığı"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@id/ivExpenseIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvExpenseAmount"
+            app:layout_constraintBottom_toTopOf="@+id/tvExpenseDate"/>
+
+        <TextView
+            android:id="@+id/tvExpenseDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="01.01.2024"
+            android:textSize="12sp"
+            android:textColor="#757575"
+            app:layout_constraintStart_toStartOf="@id/tvExpenseTitle"
+            app:layout_constraintTop_toBottomOf="@id/tvExpenseTitle"
+            app:layout_constraintBottom_toBottomOf="parent" />
+            
+        <TextView
+            android:id="@+id/tvExpenseType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tür"
+            android:textSize="12sp"
+            android:textColor="#3F51B5"
+            android:background="@drawable/bg_pill_faded"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@id/tvExpenseDate"
+            app:layout_constraintTop_toTopOf="@id/tvExpenseDate"
+            app:layout_constraintBottom_toBottomOf="@id/tvExpenseDate"/>
+
+        <TextView
+            android:id="@+id/tvExpenseAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-150.00 TL"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

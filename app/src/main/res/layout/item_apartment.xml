@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivApartmentIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_home"
+            app:tint="@color/colorPrimary"
+            android:background="@drawable/bg_circle_faded"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/tvApartmentDoorNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daire 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/ivApartmentIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/tvApartmentTenant"
+            app:layout_constraintVertical_chainStyle="packed"/>
+
+        <TextView
+            android:id="@+id/tvApartmentTenant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kiracı: -"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/ivApartmentIcon"
+            app:layout_constraintTop_toBottomOf="@id/tvApartmentDoorNumber"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_ic_reports.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\ic_reports.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_bg_edittext_rounded.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\bg_edittext_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_ic_receipt.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\ic_receipt.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_dialog_prediction.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\dialog_prediction.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_bg_pill_faded.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\bg_pill_faded.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_ic_close_circle.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\ic_close_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_item_apartment.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\item_apartment.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_item_note.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\item_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_fragment_apartments.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\fragment_apartments.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_bg_circle_faded.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\bg_circle_faded.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_bg_header_rounded.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\bg_header_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_fragment_reports.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\fragment_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_ic_expenses.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\ic_expenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_item_file.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\item_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_item_payment_apartment.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\item_payment_apartment.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_fragment_expenses.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\fragment_expenses.xml"
+    },
+    {
+        "merged": "com.example.apartmanyonetim.app-merged_res-31:/layout_activity_splash.xml.flat",
+        "source": "com.example.apartmanyonetim.app-main-33:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\ic_check_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_item_expense.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\item_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_ic_apartments.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\ic_apartments.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_dialog_add_transaction.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\dialog_add_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_dialog_add_expense.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\dialog_add_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-merged_res-31:\\layout_dialog_add_apartment.xml.flat",
+        "source": "C:\\Users\\12304364\\.gradle\\daemon\\8.2\\com.example.apartmanyonetim.app-main-33:\\layout\\dialog_add_apartment.xml"
+    }
+]

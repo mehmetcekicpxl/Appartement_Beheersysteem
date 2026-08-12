@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorPaid">#4CAF50</color>
+    <color name="colorPending">#FF9800</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryVariant">#303F9F</color>
+    <color name="colorSecondary">#FFC107</color>
+    <color name="colorSecondaryVariant">#FFA000</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorUnpaid">#F44336</color>
+    <color name="ic_launcher_background">#3F51B5</color>
+    <string name="app_name">Apartman Yönetim</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryVariant</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+</resources>

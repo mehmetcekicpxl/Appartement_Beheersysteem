@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryVariant">#303F9F</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#FFC107</color>
+    <color name="colorSecondaryVariant">#FFA000</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    
+    <!-- Status Colors -->
+    <color name="colorPaid">#4CAF50</color> <!-- Green -->
+    <color name="colorUnpaid">#F44336</color> <!-- Red -->
+    <color name="colorPending">#FF9800</color> <!-- Orange -->
+</resources>

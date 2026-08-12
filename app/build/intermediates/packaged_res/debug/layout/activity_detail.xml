@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true"
+    tools:context=".ApartmentDetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Blue Header Background -->
+        <View
+            android:id="@+id/viewHeaderBg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/bg_header_rounded"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daire Detayı"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Info Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@id/tvDetailTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+                
+                <TextView
+                    android:text="Genel Bilgiler"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#3F51B5"
+                    android:layout_marginBottom="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/tvDetailTenant"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Kiracı: -"
+                        android:textSize="16sp"
+                        android:textColor="#212121"/>
+
+                    <Button
+                        android:id="@+id/btnEditTenant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Düzenle"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Small"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/tvDetailRent"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Kira Bedeli: -"
+                        android:textSize="16sp"
+                        android:textColor="#212121"/>
+
+                    <Button
+                        android:id="@+id/btnEditRent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Düzenle"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Small"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/tvDetailResidentCount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Kişi Sayısı: -"
+                        android:textSize="16sp"
+                        android:textColor="#212121"/>
+
+                    <Button
+                        android:id="@+id/btnEditResidentCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Düzenle"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Small"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tvDetailAddress"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Adres: -"
+                        android:textSize="16sp"
+                        android:textColor="#212121"/>
+
+                    <Button
+                        android:id="@+id/btnEditAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Düzenle"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Small"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Content Container for remaining items -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/cardInfo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <!-- Notlar Bölümü -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arıza ve Notlar"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/etNotes"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/bg_edittext_rounded"
+                android:padding="12dp"
+                android:gravity="top|start"
+                android:hint="Yeni not ekle..." />
+
+            <Button
+                android:id="@+id/btnSaveNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Kaydet"
+                android:layout_gravity="end"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Dosyalar Bölümü -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dosyalar (Sözleşme vb.)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_marginBottom="8dp" />
+                
+            <Button
+                android:id="@+id/btnUploadFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dosya Yükle (PDF/Foto)"
+                android:layout_marginBottom="8dp"
+                app:icon="@android:drawable/ic_menu_upload"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvFiles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:paddingBottom="40dp"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
