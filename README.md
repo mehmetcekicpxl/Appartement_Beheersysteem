@@ -1,18 +1,18 @@
 ﻿# Appartement Beheersysteem
 
-> **Een uitgebreide mobiele applicatie voor het efficiÃ«nt en overzichtelijk beheren van appartementencomplexen.**
+> **Een uitgebreide mobiele applicatie voor het efficiënt  en overzichtelijk beheren van appartementencomplexen.**
 
 Deze repository bevat de broncode en bijbehorende documentatie voor het **Appartement Beheersysteem** project. Dit project is ontwikkeld met een focus op gebruiksvriendelijkheid, schaalbaarheid en schone code.
 
-## âœ¨ Functionaliteiten
+## Functionaliteiten
 - Overzichtelijk dashboard van alle appartementen en bewoners
 - Registratie en beheer van betalingen en eventuele achterstanden
 - Snelle toegang tot bewonersinformatie
 
-## ðŸ› ï¸ Gebruikte TechnologieÃ«n
+## Gebruikte Technologieën
 - **Android**
 
-## ðŸ“¸ Screenshots
+## Screenshots
 *(Voeg later screenshots toe in de screenshots map en link ze hier)*
 
 `html
@@ -20,7 +20,7 @@ Deze repository bevat de broncode en bijbehorende documentatie voor het **Appart
 <!-- <img src="./screenshots/app_home.png" alt="Home Screen" width="300"/> -->
 `
 
-## ðŸš€ Installatie & Gebruik
+## Installatie & Gebruik
 Open dit project in Android Studio en bouw de APK om te installeren op een Android-apparaat.
 
 ---
