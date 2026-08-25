@@ -13,12 +13,7 @@ Deze repository bevat de broncode en bijbehorende documentatie voor het **Appart
 - **Android**
 
 ## Screenshots
-*(Voeg later screenshots toe in de screenshots map en link ze hier)*
 
-`html
-<!-- Voorbeeld van hoe je een screenshot toevoegt: -->
-<!-- <img src="./screenshots/app_home.png" alt="Home Screen" width="300"/> -->
-`
 
 ## Installatie & Gebruik
 Open dit project in Android Studio en bouw de APK om te installeren op een Android-apparaat.
