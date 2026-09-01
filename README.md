@@ -1,7 +1,7 @@
 # Appartement Beheersysteem
 
 > **Een uitgebreide mobiele applicatie voor het efficiënt  en overzichtelijk beheren van appartementencomplexen.**
-
+Deze app is speciaal gemaakt voor verhuurders. Je vindt er direct alle belangrijke informatie in terug. Je kan makkelijk zien hoeveel winst of verlies je maakt. Als er iets kapot is of hersteld moet worden, kan je daar een notitie van maken. Je kan huurcontracten of foto's van problemen uploaden en veilig bewaren. Je ziet in één overzicht welke huurder in welk gebouw woont. Ook kan je de huurprijs voor alle huurders in één keer verhogen. Kortom, deze app is het digitale notitieboekje van een huisbaas.
 Dit project is zorgvuldig ontwikkeld met de nadruk op schone code, schaalbaarheid en een uitstekende gebruikerservaring. De repository bevat alle benodigde broncode, documentatie en configuratiebestanden om direct aan de slag te gaan.
 
 ## ✨ Functionaliteiten
@@ -9,11 +9,12 @@ Dit project is zorgvuldig ontwikkeld met de nadruk op schone code, schaalbaarhei
 - Overzichtelijke dashboards voor beheerders
 - Meertalige ondersteuning
 - Uitgebreide documentatie en configuratie
+- Documenten of foto's uploaden
 
 ## 🛠️ Gebruikte Technologieën
-- **.NET MAUI / Blazor**
-- **Entity Framework Core**
-- **SQL Server**
+- **Kotlin, Android SDK**
+- **Gradle**
+- **Git & GitHub**
 
 ## 📸 Screenshots
 
@@ -27,9 +28,10 @@ Dit project is zorgvuldig ontwikkeld met de nadruk op schone code, schaalbaarhei
 
 ## 🚀 Installatie & Gebruik
 1. Clone deze repository naar uw lokale machine.
-2. Open de solution of het project in uw favoriete IDE (zoals Visual Studio).
-3. Bouw (Build) het project om de benodigde packages te herstellen.
-4. Druk op `F5` of run het project om de applicatie lokaal te starten.
+2. Open het project in **Android Studio**.
+3. Wacht tot Gradle de synchronisatie (sync) heeft voltooid.
+4. Verbind een Android-apparaat of start een Android Emulator.
+5. Klik op de **Run**-knop (of druk op `Shift + F10`) om de applicatie te starten.
 
 ## 🤝 Bijdragen
 Feedback en suggesties zijn altijd welkom! Voel je vrij om een issue aan te maken of een pull request in te dienen.
